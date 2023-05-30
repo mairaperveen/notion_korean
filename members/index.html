@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="wraper">
+    <div class="container">
+      <div class="row">
+        <h3 class="pull-left txtA">회원상세</h3>
+        <h5 class="pull-left color">필수항목</h5>
+        <hr class="col-md-12">
+        <div class="col-md-12">
+          <ul class="nav nav-tabs">
+            <li><a data-toggle="tab" href="#home">기본정보 관리</a></li>
+            <li class="active"><a data-toggle="tab" href="#menu1">투자유형 관리</a></li>
+            <li><a data-toggle="tab" href="#menu2">입출금내역 조회</a></li>
+            <li class=""><a data-toggle="tab" href="#menu3">영업내역 조회</a></li>
+            <li><a data-toggle="tab" href="#menu4">투자내역 조회</a></li>
+            <li><a data-toggle="tab" href="#menu5">채권내역 조회</a></li>
+            <li class=""><a data-toggle="tab" href="#menu6">SMS 관리</a></li>
+            <li><a data-toggle="tab" href="#menu7">상담내역 관리</a></li>
+            <li><a data-toggle="tab" href="#menu8">1:1문의내역 조회</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div id="menu2" class="tab-pane fade in active">
+              <div class="col-md-6 txt">
+                <h3 class="pull-left">신청 목록</h3>
+                <h3 class="pull-left">(총 100명 | 승인대기 1건)</h3>
+              </div>
+
+              <div class="col-md-2 txt">
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">승인여부 전체
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="col-md-2 txt">
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">신청일시순
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+                </div>
+
+              </div>
+              <div class="col-md-2 txt">
+                <div class="dropdown">
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">50개씩 보기
+                    <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                  </ul>
+                </div>
+
+              </div>
+              <hr class="col-md-12">
+              <h3 class="pull-left btn-l">등록</h3>
+              <div class="pull-right">
+                <h3 class="pull-left">선택한 0건</h3>
+                <div class="pull-left">
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                      승인상태 변경
+                      <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">HTML</a></li>
+                      <li><a href="#">CSS</a></li>
+                      <li><a href="#">JavaScript</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+                <div class="col-md-3">
+                  <div class="btn-l">
+                    저장
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="table-responsive">
+                  <table class="table" border="0">
+                    <thead>
+                      <tr>
+                        <th>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value=""></label>
+                          </div>
+                        </th>
+                        <th>No</th>
+                        <th>기존유형</th>
+                        <th>신청유형</th>
+                        <th>제출서류</th>
+                        <th class="date">신청일시</th>
+                        <th>승인여부</th>
+                        <th>승인거부 사유</th>
+                        <th>승인일시</th>
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value=""></label>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 ">승인대기</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox disabled">
+                            <label><input type="checkbox" value="" disabled></label>
+                          </div>
+                        </td>
+                        <td>2</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 pink ">승인거부</td>
+                        <td>서류 식별 불가 금융투자업자에 계좌를 개설한지 1년 미만으로 전문투자자 승인 불가</td>
+                        <td>2023-01-10 09:00:00</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox disabled">
+                            <label><input type="checkbox" value="" disabled></label>
+                          </div>
+                        </td>
+                        <td>3</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 green ">승인거부</td>
+                        <td>서류 식별 불가 금융투자업자에 계좌를 개설한지 1년 미만으로 전문투자자 승인 불가</td>
+                        <td>2023-01-10 09:00:00</td>
+                      </tr> 
+                      <tr>
+                        <td>
+                          <div class="checkbox disabled">
+                            <label><input type="checkbox" value="" disabled></label>
+                          </div>
+                        </td>
+                        <td>3</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 green ">승인거부</td>
+                        <td>서류 식별 불가 금융투자업자에 계좌를 개설한지 1년 미만으로 전문투자자 승인 불가</td>
+                        <td>2023-01-10 09:00:00</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value=""></label>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 ">승인대기</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox disabled">
+                            <label><input type="checkbox" value="" disabled></label>
+                          </div>
+                        </td>
+                        <td>2</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 pink ">승인거부</td>
+                        <td>서류 식별 불가 금융투자업자에 계좌를 개설한지 1년 미만으로 전문투자자 승인 불가</td>
+                        <td>2023-01-10 09:00:00</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value=""></label>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 ">승인대기</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox disabled">
+                            <label><input type="checkbox" value="" disabled></label>
+                          </div>
+                        </td>
+                        <td>2</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 pink ">승인거부</td>
+                        <td>서류 식별 불가 금융투자업자에 계좌를 개설한지 1년 미만으로 전문투자자 승인 불가</td>
+                        <td>2023-01-10 09:00:00</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value=""></label>
+                          </div>
+                        </td>
+                        <td>1</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 ">승인대기</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="checkbox disabled">
+                            <label><input type="checkbox" value="" disabled></label>
+                          </div>
+                        </td>
+                        <td>2</td>
+                        <td>소득적격</td>
+                        <td>개인전문</td>
+                        <td class="bg">보기</td>
+                        <td>2023-01-10 09:00:00</td>
+                        <td class="bg2 pink ">승인거부</td>
+                        <td>서류 식별 불가 금융투자업자에 계좌를 개설한지 1년 미만으로 전문투자자 승인 불가</td>
+                        <td>2023-01-10 09:00:00</td>
+                      </tr>
+                    </tbody>
+
+                  </table>
+                  <ul class="pagination">
+                    <li><a href="#"><<</a></li>
+                    <li><a href="#"><</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">></a></li>
+                    <li><a href="#">>></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <h3>Menu 1</h3>
+                <p>Some content in menu 1.</p>
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <h3>Menu 2</h3>
+                <p>Some content in menu 2.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
